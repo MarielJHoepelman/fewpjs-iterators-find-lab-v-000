@@ -4,4 +4,4 @@ function testFunc() {
   return "hi"
 }
 
-const superbowlWin = collection => collection.find(element => element > 10);
+const superbowlWin = record => record.find(element => element.result === "W");
