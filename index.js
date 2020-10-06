@@ -6,7 +6,8 @@ function testFunc() {
 
 const superbowlWin = record => {
   let result;
-  return record.find(element => {
+  result = record.find(element => {
     return element.result === "W";
   })
+  return result.year
 }
