@@ -10,7 +10,7 @@ const superbowlWin = record => {
     return element.result === "W")
   })
 
-  if(result) {
+  if(!!result) {
     return result.year
   }
 }
